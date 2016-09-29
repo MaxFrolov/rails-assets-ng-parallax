@@ -40,7 +40,7 @@ directive('duParallax',
       return;
     }
 
-    var translate3d = function(result){
+    var translate3d = function(result) {
       if(!result.x && !result.y) return '';
       return 'translate3d(' + Math.round(result.x) + '%, ' + Math.round(result.y) + 'px, 0)';
     };
